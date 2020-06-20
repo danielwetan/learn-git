@@ -91,8 +91,26 @@ IDK!!
 # Resolve merge conflict
 Biasanya terjadi ketika ada suatu file yang isinya dirubah dikedua branch
 
-
+Untuk mengatasinya, file yang conflict tersebut harus dirubah: baik menggunakan current, incoming, atau menggunakan keduanya
 
 ## Undoing
+Git flow:
+Working directory -> Staging / index -> Local repo
+
+# Unstage Staging File
+* git reset HEAD => Unstaging staging file
+Working directory <- Staging / index
+
+# Undo Modified File
+* git checkout => Unmodify file
+Working directory <- local repo
+
+Jika file yang ingin di-undo sudah berada pada staging.
+Maka fungsi ini tidak akan berfungsi.
+Solusinya gunakan "git reset HEAD index.md" terlebih dahulu, kemudian baru gunakan "git checkout index.md"
+
+# Update last commit
+* git commit --amend
+
 
 ## Collaboration

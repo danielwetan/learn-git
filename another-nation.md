@@ -19,3 +19,8 @@
 - USA
 - Canada
 - Mexico
+
+## South America
+- Brazil
+- Argentina
+- Chile
