@@ -2,12 +2,13 @@ Command dasar paling sering digunakan pada Git.
 
 ## Table of Content
 
-* Terminal / Command Line 
-* Basic Operation
-* Delete & Ignore
-* Branch
-* Undoing
-* Collaboration
+* [Basic Terminal / Command Line](https://github.com/danielwetan/learn-git/tree/master#basic-terminal--command-line) 
+* [Basic Operation](https://github.com/danielwetan/learn-git/tree/master#basic-operation)
+* [Delete & Ignore](https://github.com/danielwetan/learn-git/tree/master#delete--ignore)
+* [Branch](https://github.com/danielwetan/learn-git/tree/master#branch)
+* [Undoing](https://github.com/danielwetan/learn-git/tree/master#undoing)
+* [Collaboration](https://github.com/danielwetan/learn-git/tree/master#collaboration)
+* [Author](https://github.com/danielwetan/learn-git/tree/master#author) 
 
 ---
 
@@ -50,7 +51,6 @@ Install vscode extension `Git Graph` to display Git flow
 ---
 
 ### Delete & Ignore
-Delete file
 Contoh jika ingin menghapus `city.md`
 1. `delete file city.md`
 2. `git add city.md`
