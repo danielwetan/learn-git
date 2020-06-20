@@ -1,6 +1,6 @@
 # Another Nation
 
-## ASEAN
+## ASIA
 - Indonesia
 - Malaysia
 - Brunei
@@ -14,3 +14,8 @@
 - Egypt
 - Algeria
 - Tunisia
+
+## North America
+- USA
+- Canada
+- Mexico
