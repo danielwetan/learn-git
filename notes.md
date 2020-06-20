@@ -86,7 +86,7 @@ Ketika di branch master
 # Merge strategy
 Fast forward vs Recursive
 
-
+* git commit -am "Text" => cara lain untuk commit
 
 ## Undoing
 
