@@ -85,8 +85,13 @@ Ketika di branch master
 
 # Merge strategy
 Fast forward vs Recursive
-
+IDK!!
 * git commit -am "Text" => cara lain untuk commit
+
+# Resolve merge conflict
+Biasanya terjadi ketika ada suatu file yang isinya dirubah dikedua branch
+
+
 
 ## Undoing
 
