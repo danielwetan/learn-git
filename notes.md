@@ -78,7 +78,15 @@ Ketika selesai kita bisa menggabungkan kode pada branch tertentu dengan branch m
 * git checkout -b another-nation => create and move to new branch
 
 # Merge branch
+Ketika di branch baru
 * git merge master branch-name => merge new branch with master
+Ketika di branch master
+* git merge branch-name
+
+# Merge strategy
+Fast forward vs Recursive
+
+
 
 ## Undoing
 
