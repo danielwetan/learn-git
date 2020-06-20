@@ -114,6 +114,19 @@ Mengupdate value dan nama commit terakhir
 * git commit --amend
 
 # Rollback commit
+Kembali ke commit sebelumnya atau commit pilihan
+* git revert HEAD~0 => revert ke commit sebelumnya
+* git revert HEAD~1 => revert ke commit kedua sebelumnya
+* git revert HEAD~4 => revert ke commit kelima sebelumnya
 
+# Reset commit
+Konsepnya sama seperti rollback commit, 
+bedanya perintah ini akan menghapus history commit
+* git reset HEAD~1 => menghapus commit sebelumnya
+* git reset HEAD~2 => menghapus commit kedua sebelumnya
+* git reset HEAD~4 => menghapus commit keempat sebelumnya
+Ketika direset, file yang baru dibuat pada commit tersebut akan tersimpan di staging
+
+* git reset --hard HEAD~1 => menghapus commit sebelumnya dan mengubah isinya secara total tanpa ada yang ditambahkan ke staging
 
 ## Collaboration
