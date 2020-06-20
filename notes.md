@@ -12,10 +12,10 @@ Belajar Menggunakan Git
 ## Installation & Config
 
 ## Terminal / Command Line
-- Move to some directory => cd directory-name
-- Create directory => mkdir folder-name
-- Create file => echo "Hello Git" > hello.txt 
-- Delete directory or file => rm -rf folder-name
+- cd directory-name => move to some directory
+- mkdir folder-name => create directory
+- echo "Hello Git" > hello.txt => create file hello.txt with value "Hello Git"
+- rm -rf folder-name => delete directory or file
 -----
 
 ## Basic Operation
@@ -23,8 +23,7 @@ Belajar Menggunakan Git
 Inisialisasi Git pada project
 * git init
 * git clone => git clone https://github.com/google/web-starter-kit
-Cek isi dari folder .git 
-* ls .git
+Cek isi dari folder .git => ls .git
 
 # Git Lifecycle
 Working directory -> (git add) Staging / index -> (git commit) Local repo 
@@ -41,9 +40,8 @@ Ketika melakukan git commit maka history akan tersimpan, berisi informasi siapa 
 
 # Git History
 * git log => menampilkan history dari commit sebelumnya 
-  ex. git log --oneline => log dalam satu baris
-
-  HEAD -> Master ==> sedang aktif di commit 
+* git log --oneline => log dalam satu baris (lebih simple)
+HEAD -> Master ==> sedang aktif di commit Master
 
 # Setup Vscode
 Install vscode extension "Git Graph" to display git flow
@@ -78,6 +76,9 @@ Ketika selesai kita bisa menggabungkan kode pada branch tertentu dengan branch m
 * git checkout branch-name => masuk ke branch branch-name
 * git branch -D branch-name => delete branch
 * git checkout -b another-nation => create and move to new branch
+
+# Merge branch
+* git merge master branch-name => merge new branch with master
 
 ## Undoing
 
