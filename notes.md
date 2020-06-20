@@ -97,11 +97,11 @@ Untuk mengatasinya, file yang conflict tersebut harus dirubah: baik menggunakan 
 Git flow:
 Working directory -> Staging / index -> Local repo
 
-# Unstage Staging File
+# Unstage staging file
 * git reset HEAD => Unstaging staging file
 Working directory <- Staging / index
 
-# Undo Modified File
+# Undo mdified file
 * git checkout => Unmodify file
 Working directory <- local repo
 
@@ -110,7 +110,10 @@ Maka fungsi ini tidak akan berfungsi.
 Solusinya gunakan "git reset HEAD index.md" terlebih dahulu, kemudian baru gunakan "git checkout index.md"
 
 # Update last commit
+Mengupdate value dan nama commit terakhir
 * git commit --amend
+
+# Rollback commit
 
 
 ## Collaboration
