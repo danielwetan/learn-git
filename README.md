@@ -25,7 +25,7 @@ Command dasar paling sering digunakan pada Git.
 Inisialisasi Git pada project
 * `git init`
 * `git clone` example: `git clone https://github.com/google/web-starter-kit`
-Cek isi dari folder .git => ls .git
+> Cek isi dari folder .git => ls .git
 
 #### Git Lifecycle
 Working directory ~> (git add) Staging / index ~> (git commit) Local repo 
@@ -34,16 +34,16 @@ Ketika melakukan git commit maka history akan tersimpan, berisi informasi siapa 
 #### Commit Pertama
 * `git status` => informasi branch, history commit, file yang sudah dicommit
 * `git add` ~> memasukan file ke staging / index 
-  ex. `git add hello.md`
-  gunakan * untuk memilih seluruh file
-* git commit ~> memasukan file ke local repo
-  ex. `git commit -m "first commit"` 
-  -m = message
-
+>   ex. `git add hello.md`
+>   gunakan * untuk memilih seluruh file
+ * git commit ~> memasukan file ke local repo
+ex. `git commit -m "first commit"` 
+>   -m = message
+> 
 #### Git History
 * `git log` ~> menampilkan history dari commit sebelumnya 
 * `git log --oneline` ~> log dalam satu baris (lebih simple)
-HEAD -> Master ==> sedang aktif di commit Master
+> HEAD -> Master ==> sedang aktif di commit Master
 
 #### Setup Vscode
 Install vscode extension `Git Graph` to display Git flow
@@ -57,8 +57,8 @@ Contoh jika ingin menghapus `city.md`
 3. `git commit -m delete city.md`
  
 **Ignore file** ~> file tidak akan diupload ke Local repo
-Ex. Ignore file `nation.md`
-
+> Ex. Ignore file `nation.md`
+> 
 - buat file `.gitignore`
  - ketik file yang ingin diignore, pada kasus ini `nation.md` didalam `.gitignore`.
    jika ingin meng-ignore folder, ganti `nation.md` menjadi nama folder
